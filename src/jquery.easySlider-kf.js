@@ -88,8 +88,8 @@
             li.css('float', 'left');
 
             // Set width/height of ul
-            if(options.vertical) ul.height(s*w);
-            else ul.width(s*h);
+            if(options.vertical) ul.height(s*h);
+            else ul.width(s*w);
 
             // Clone elements for continuous scrolling
             if(options.continuous)
@@ -269,8 +269,6 @@
                 $("a","#"+options.prevId).hide();
                 $("a","#"+options.firstId).hide();
             };
-
         });
-
     };
 })(jQuery);
